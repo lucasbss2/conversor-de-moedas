@@ -1,0 +1,72 @@
+body {
+    background-image: url('images/default.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#homeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#homeTitle {
+    color: White;
+    text-shadow: black 5px 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: "Brush Script MT", cursive;
+    font-size: 80px;
+}
+
+#currencyAmount {
+    margin: 10px 0px 10px 0px;
+    width: 1200px;
+    height: 40px;
+    border:none;
+    border-radius: 12px;
+}
+
+#listOfCurrencyOne {
+    margin: 15px 0px 15px 0px;
+    width: 1208px;
+    height: 40px;
+    border:none;
+    border-radius: 12px;
+}
+
+#listOfCurrencyTwo {
+    margin: 15px 0px 15px 0px;
+    width: 1208px;
+    height: 40px;
+    border:none;
+    border-radius: 12px;
+}
+
+#exchangeButton {
+    font-family: "Brush Script MT", cursive;
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+}
+
+#exchangeResultContainer{
+    position: absolute;
+    color: White;
+    text-shadow: 2px 2px black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}

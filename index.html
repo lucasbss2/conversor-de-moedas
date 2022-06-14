@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <title>Conversor de moedas</title>
+        <meta charset = "utf-8" />
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "homeContainer">
+            <h1 id = "homeTitle" >Conversor de moedas</h1>
+            <input type = "number" min = "0" id = "currencyAmount" class = "currencyContainer" placeholder = "Digite o valor da moeda." autofocus>
+            <select id = "listOfCurrencyOne">
+                <option value = "USD">Dólar Americano - USD</option>
+                <option value = "BRL">Real Brasileiro - BRL</option>
+                <option value = "EUR">Euro - EUR</option>
+            </select>
+            <select id="listOfCurrencyTwo">
+                <option value = "BRL">Real Brasileiro - BRL</option>
+                <option value = "USD">Dólar Americano - USD</option>
+                <option value = "EUR">Euro - EUR</option>
+            </select>
+            <button type = "submit" id = "exchangeButton" class = "currencyContainer">Converter</button>
+        </div>
+        <div id = "exchangeResultContainer">
+            <div id = "exchangeUnitNameSection"></div>
+            <div id = "exchangeDate"></div>
+            <div id = "exchangeRateSection"></div>
+            <div id = "exchangeResultSection"></div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
