@@ -1,6 +1,6 @@
 # conversor-de-moedas
-Este aplicativo feito em JavaScript nativo consiste em um conversor de moedas.
-This app made in native JavaScript consist in a currency exchanger.
+Este aplicativo feito em JavaScript consiste em um conversor de moedas.
+This app made in JavaScript consist in a currency exchanger.
 
 
 # API
